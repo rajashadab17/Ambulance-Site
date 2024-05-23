@@ -1,0 +1,76 @@
+@media only screen and  (max-width: 432px) {
+
+
+    .main-section > div{
+      height: 50vh;
+    }
+
+    .main-section > div:nth-child(2) p {
+      font-size: 36px !important;
+      margin-bottom: 30px;
+    }
+
+    .nav-btn{
+      display: none;
+    }
+
+    .book-btn{
+      display: none !important;
+    }
+
+    .menu-btn{
+      display: flex !important;
+    }
+
+    .nav-menu{
+      display: none !important;
+    }
+
+    .contact{
+      flex-direction: column;
+      height: auto !important;
+    }
+
+    .contact > div {
+      width: 100%;
+    }
+
+    .contact > div:nth-child(1) > div > h4 {
+      font-size: 20px !important;
+    }
+
+    .contact > div:nth-child(1) > div:nth-child(2){
+      /* background: orange; */
+      height: 120px;
+    }
+
+    .contact > div:nth-child(1){
+      height: 350px !important;
+      /* background: green !important; */
+    }
+
+    .ambulance-service , 
+    .rental-services,
+    .ambulances ,
+    .locations{
+      width: 100%;
+      flex-direction: column;
+      box-sizing: border-box;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ambulance-service > div , 
+    .rental-services > div ,
+    .ambulances > div ,
+    .locations > div{
+      width: 80%;
+      margin: 20px;
+      box-sizing: border-box;
+    }
+
+    .section-heading {
+      font-size: 35px !important;
+    }
+    
+  }
